@@ -1,0 +1,50 @@
+/* common css */
+* {
+  font-family: "Noto Serif", serif;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+/* custon css */
+/* nav section start */
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-bar img {
+  margin-top: 6px;
+}
+.nav-bar ul :nth-child(1),
+.nav-bar ul :nth-child(4) {
+  font-weight: 700;
+}
+.nav-bar ul {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+}
+/* banner section */
+.banner-section {
+  display: flex;
+  align-items: flex-end;
+  margin: 100px auto;
+}
+.banner-title {
+  color: #000000;
+  font-size: 50px;
+  font-weight: 700;
+}
+#banner-title-2 {
+  color: #e95a08;
+}
+.banner-left-subtitle {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.banner-right img {
+  display: block;
+}
