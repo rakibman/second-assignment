@@ -261,15 +261,33 @@
   /* banner section */
   .banner-section {
     flex-direction: column-reverse;
+    
   }
   /* card section */
   .card-container {
+    gap: 11px;
     grid-template-columns:repeat(2,1fr);
+    margin: 40px 5px;
   }
+  .card {
+  max-width: 190px;
+}
+.card img {
+  max-width: 190px;
+}
+
   .plants-left-right-container {
     flex-direction: column;
     max-height: none;
+    align-items: center;
   }
+  .plants-lover-left{
+    max-width: 85%;
+  }
+  .plants-lover-right {
+  max-width: 80%;
+  padding: 40px 0 20px 10px;
+}
   .latest-card-container {
     flex-direction: column;
   }
