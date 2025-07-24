@@ -62,3 +62,30 @@
   width: 65%;
   margin: 0 auto;
 }
+.card{
+  max-width: 200px;
+  border: 1px solid red;
+}
+.card img{
+  max-width: 200px;
+}
+.card-bottom{
+  text-align: center;
+  margin: 20px auto;
+}
+.card h5{
+  font-size: 20px;
+  font-weight: 500;
+}
+.card p{
+  font-size: 22px;
+  font-weight: 700;
+}
+.card button{
+  width: 100%;
+  font-weight: 600;
+  color: #FFFFFF;
+  background-color: #E95A08;
+  border: none;
+  padding:15px 30px 15px 30px;
+}
