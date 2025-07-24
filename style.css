@@ -260,10 +260,19 @@
     display: none;
   }
   /* banner section */
+  .banner-left{
+    margin: 0 20px;
+  }
+  .banner-title{
+    font-size: 30px;
+  }
   .banner-section {
     flex-direction: column-reverse;
     
   }
+  .banner-right img {
+    max-width: 100%;
+}
   /* card section */
   .card-container {
     gap: 11px;
