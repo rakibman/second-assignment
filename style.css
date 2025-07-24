@@ -202,6 +202,7 @@
   max-width: 1270px;
   height: 500px;
   background-image: url(./assets/news-letter-bg.png);
+  background-repeat: no-repeat;
   margin: 50px auto;
 }
 
@@ -300,11 +301,16 @@
   }
   .card-right {
     max-width: 310px;
-  padding: 45px 30px 45px 30px;
-  /* text-align: center; */
-  /* padding: 150px 100px 150px 100px; */
+  padding: 45px 30px 45px 30px; 
   
-  
+}
+/* join section */
+.join-section {
+  max-width:430px;
+  height:fit-content;
+}
+.join-container input {
+  padding: 5px 50px 5px 10px;
 }
   /* footer section */
   .footer-section {
