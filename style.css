@@ -134,7 +134,70 @@ main {
   max-width: 340px;
 }
 /* latest deals section */
+  .latest-deals h3{
+  font-size: 45px;
+  font-weight: 700;
+  text-align: center;
+  
+}
+.latest-deals p{
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  width: 800px;
+  margin: 0 auto;
+}
+.latest-card-container{
+  margin-top: 40px;
+  display: flex;
+  gap: 25.6px;
+}
+.card-left{
+  display: grid;
+  gap: 20px;
+}
+.card-left h2{
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: 700;
+}
+.card-left a{
+  color: #FFFFFF;
+}
+.left-card-1{
+  max-width: 310px;
+  border: 1px solid green;
+  text-align: center;
+  padding: 45px 30px 45px 30px;
+  border-radius: 5px;
+  background-image: url('./assets/deal-bloom.png');
+}
+.left-card-2{
+  max-width: 310px;
+  border: 1px solid green;
+  text-align: center;
+  padding: 45px 30px 45px 30px;
+  border-radius: 5px;
+  background-image: url('./assets/deal-ana.png');
+}
 
+.card-right{
+  max-width: 600px;
+  text-align: center;
+  border: 1px solid red;
+  padding: 150px 163px 150px 163px;
+  border-radius: 5px;
+  background-image: url('./assets/deal-zabo.png');
+}
+.card-right h1{
+  color: #FFFFFF;
+  font-size: 35px;
+  font-weight: 700;
+}
+.card-right a{
+  color: #FFFFFF;
+}
 /* join section */
 .join-section {
   max-width: 1270px;
