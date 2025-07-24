@@ -275,6 +275,7 @@
 .card img {
   max-width: 190px;
 }
+/* plant lover section */
 
   .plants-left-right-container {
     flex-direction: column;
@@ -288,9 +289,24 @@
   max-width: 80%;
   padding: 40px 0 20px 10px;
 }
+.latest-card-container {
+  margin-top: 40px;
+  align-items: center;
+  
+}
+/* latest card container */
   .latest-card-container {
     flex-direction: column;
   }
+  .card-right {
+    max-width: 310px;
+  padding: 45px 30px 45px 30px;
+  /* text-align: center; */
+  /* padding: 150px 100px 150px 100px; */
+  
+  
+}
+  /* footer section */
   .footer-section {
     flex-direction: column;
   }
