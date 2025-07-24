@@ -4,8 +4,7 @@
   margin: 0;
   padding: 0;
 }
-main{
-  
+main {
 }
 .container {
   max-width: 1000px;
@@ -102,7 +101,10 @@ main{
   gap: 40px;
 }
 /* plants lover section */
-.plants-lover-section {
+.plant-lover-section{
+  margin: 50px auto;
+}
+.plants-left-right-container {
   display: flex;
   justify-content: center;
   gap: 100px;
@@ -111,8 +113,8 @@ main{
 .plants-lover-left {
   max-width: 50%;
 }
-.plants-lover-section img {
-  max-width:100%;
+.plants-left-right-container img {
+  max-width: 100%;
   max-height: 100%;
   display: block;
 }
@@ -124,50 +126,66 @@ main{
   font-size: 30px;
   font-weight: 700;
 }
-/* .plants-lover-right ul{
-  gap: 20px;
-} */
+
 .plants-lover-right ul li {
   color: rgba(0, 0, 0, 0.5);
   font-weight: 400;
   margin: 10px 0 10px 30px;
   max-width: 340px;
 }
+/* latest deals section */
 
 /* join section */
-.join-section{
+.join-section {
   max-width: 1270px;
   height: 500px;
   background-image: url(./assets/news-letter-bg.png);
   margin: 50px auto;
 }
 
-.join-container{
+.join-container {
   text-align: center;
-  padding:200px 0 200px 0;
-  
+  padding: 200px 0 200px 0;
 }
-.join-container h3{
+.join-container h3 {
   font-size: 40px;
   font-weight: 700;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-bottom: 20px;
 }
-.join-container input{
+.join-container input {
   padding: 5px 200px 5px 10px;
 }
-.join-container button{
-  color: #FFFFFF;
+.join-container button {
+  color: #ffffff;
   font-weight: 600;
   padding: 6.4px 40px;
-  background-color: #E95A08;
+  background-color: #e95a08;
   border: none;
   margin-left: -6.5px;
 }
-.join-container a{
+.join-container a {
   text-decoration: none;
   color: #ffffff;
-}
-
-
+} 
 /* footer section  */
+.footer-section {
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-1 p {
+  width: 260px;
+}
+.footer-2 ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.footer-2 ul li {
+  list-style: none;
+}
+.footer-3 img{
+  align-items: center;
+  max-width: 30px;
+}
