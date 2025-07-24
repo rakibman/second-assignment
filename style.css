@@ -4,11 +4,9 @@
   margin: 0;
   padding: 0;
 }
-main {
-}
 .container {
   max-width: 1000px;
-  margin: 0 auto; 
+  margin: 0 auto;
 }
 .banner-title-2 {
   color: #e95a08;
@@ -53,7 +51,7 @@ main {
 }
 /* plants section */
 .plants-section {
-  margin: 0 auto;
+  margin: 40px auto;
 }
 .plants-section-title {
   color: #000000;
@@ -133,17 +131,20 @@ main {
   max-width: 340px;
 }
 /* latest deals section */
+.latest-deals {
+  margin: 40px auto;
+}
 .latest-deals h3 {
   font-size: 45px;
   font-weight: 700;
-  text-align: center; 
+  text-align: center;
 }
 .latest-deals p {
   color: rgba(0, 0, 0, 0.5);
   font-size: 20px;
   font-weight: 400;
   text-align: center;
-  width: 800px;
+  max-width: 800px;
   margin: 0 auto;
 }
 .latest-card-container {
@@ -164,26 +165,29 @@ main {
   color: #ffffff;
 }
 .left-card-1 {
-  max-width: 310px; 
+  max-width: 310px;
   text-align: center;
   padding: 45px 30px 45px 30px;
   border-radius: 5px;
   background-image: url("./assets/deal-bloom.png");
+  background-repeat: no-repeat;
 }
 .left-card-2 {
-  max-width: 310px; 
+  max-width: 310px;
   text-align: center;
   padding: 45px 30px 45px 30px;
   border-radius: 5px;
   background-image: url("./assets/deal-ana.png");
+  background-repeat: no-repeat;
 }
 
 .card-right {
   max-width: 600px;
-  text-align: center; 
+  text-align: center;
   padding: 150px 163px 150px 163px;
   border-radius: 5px;
   background-image: url("./assets/deal-zabo.png");
+  background-repeat: no-repeat;
 }
 .card-right h1 {
   color: #ffffff;
@@ -246,4 +250,33 @@ main {
 .footer-3 img {
   align-items: center;
   max-width: 30px;
+}
+/* responsive for small device */
+@media screen and (max-width: 576px) {
+  .nav-bar ul :nth-child(1),
+  .nav-bar ul :nth-child(2),
+  .nav-bar ul :nth-child(3) {
+    display: none;
+  }
+  /* banner section */
+  .banner-section {
+    flex-direction: column-reverse;
+  }
+  /* card section */
+  .card-container {
+    grid-template-columns:repeat(2,1fr);
+  }
+  .plants-left-right-container {
+    flex-direction: column;
+    max-height: none;
+  }
+  .latest-card-container {
+    flex-direction: column;
+  }
+  .footer-section {
+    flex-direction: column;
+  }
+  .footer-2 ul {
+    grid-template-columns: 1fr;
+  }
 }
