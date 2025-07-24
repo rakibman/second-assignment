@@ -133,4 +133,41 @@ main{
   margin: 10px 0 10px 30px;
   max-width: 340px;
 }
-/* latest deals section */
+
+/* join section */
+.join-section{
+  max-width: 1270px;
+  height: 500px;
+  background-image: url(./assets/news-letter-bg.png);
+  margin: 50px auto;
+}
+
+.join-container{
+  text-align: center;
+  padding:200px 0 200px 0;
+  
+}
+.join-container h3{
+  font-size: 40px;
+  font-weight: 700;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+.join-container input{
+  padding: 5px 200px 5px 10px;
+}
+.join-container button{
+  color: #FFFFFF;
+  font-weight: 600;
+  padding: 6.4px 40px;
+  background-color: #E95A08;
+  border: none;
+  margin-left: -6.5px;
+}
+.join-container a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+
+/* footer section  */
