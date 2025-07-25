@@ -320,6 +320,9 @@
     max-width: 310px;
     padding: 45px 30px 45px 30px;
   }
+  .latest-deals p{
+    margin: 2px 20px;
+  }
   /* join section */
   .join-section {
     max-width: 430px;
