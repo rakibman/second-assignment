@@ -25,6 +25,10 @@
 .nav-bar ul :nth-child(4) {
   font-weight: 700;
 }
+.nav-bar ul :nth-child(2),
+.nav-bar ul :nth-child(3) {
+  color: rgb(137, 135, 161);
+}
 .nav-bar ul {
   display: flex;
   list-style: none;
@@ -242,9 +246,11 @@
   justify-content: space-between;
 }
 .footer-1 p {
+  color: rgba(0, 0, 0, 0.5);
   width: 260px;
 }
 .footer-2 ul {
+  color: rgba(0, 0, 0, 0.5);
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
