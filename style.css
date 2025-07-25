@@ -257,7 +257,7 @@
   .nav-bar ul :nth-child(1),
   .nav-bar ul :nth-child(2),
   .nav-bar ul :nth-child(3) {
-    display: none;
+    display: none; 
   }
   /* banner section */
   .banner-left {
@@ -277,8 +277,8 @@
   .card-container {
     gap: 11px;
     grid-template-columns: repeat(2, 1fr);
-    /* margin: 40px 5px; */
-    align-items: center;
+    margin: 40px 10px;
+    /* align-items: center; */
   }
   .card {
     max-width: 190px;
