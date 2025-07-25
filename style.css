@@ -103,7 +103,7 @@
 }
 /* plants lover section */
 .plant-lover-section {
-  margin: 50px auto;
+  margin: 100px auto;
 }
 .plants-left-right-container {
   display: flex;
@@ -113,12 +113,21 @@
 }
 .plants-lover-left {
   max-width: 50%;
+  position: relative;
 }
+.badge{
+  position: absolute;
+  max-width: 150px;
+  margin-top: -560px;
+  margin-left: 350px;
+}
+
 .plants-left-right-container img {
   max-width: 100%;
   max-height: 100%;
   display: block;
 }
+
 .plants-lover-right {
   max-width: 50%;
   padding: 40px 0 20px 30px;
