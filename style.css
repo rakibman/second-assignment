@@ -325,6 +325,10 @@
   .latest-card-container {
     flex-direction: column;
   }
+  /* trasted badge */
+  .badge{
+    display: none;
+  }
   .card-right {
     max-width: 310px;
     padding: 45px 30px 45px 30px;
